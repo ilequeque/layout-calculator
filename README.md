@@ -1,27 +1,82 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+# Calculator App
 
-# Calculator Layout Boss Challenge
+A simple and elegant calculator app built with Swift, designed for iOS devices. This app provides basic arithmetic operations with a clean and intuitive user interface.
 
-No knowledge is your own until you put it into practice. Using what you've learnt about auto layout, stack views and setting constraints, create the following UI. 
+## Features
 
-## Portrait
+- Basic arithmetic operations: Addition, Subtraction, Multiplication, Division
+- Clear and responsive user interface
+- Real-time calculations and error handling
+- Support for decimal numbers
 
-![Portrait](Documentation/Portrait.png)
+## Screenshots
 
-## Landscape
-![Landscape](Documentation/Landscape.png)
+![Calculator Screenshot](screenshots/calculator.png)
 
-This is a difficult challenge. You pass the challenge if you can create the vertical and horizontal stacks required for the layout. Once you've done that, you can also get extra credit if you figure out how to layout the small details.
+## Requirements
 
-Bronze Medal: If you can figure out how to have the layout be constrained to the Safe Areas in Portrait and Landscape. (Notice the distance to the edges is different between landscape and portrait.
+- iOS 13.0+
+- Xcode 12.0+
+- Swift 5.0+
 
-Silver Medal: If you can figure out how to indent the Label with the 0 so that there is 20px distance from the right edge of the screen.
+## Installation
 
-Gold Medal: If you can figure out how to make the 0 button take up twice as much width as the "." and "=" buttons.
+1. Clone the repository to your local machine:
 
-If you get stuck, check out the solution video in the next lesson.
+    ```bash
+    git clone https://github.com/ilequeque/layout-calculator
+    ```
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+2. Open the project in Xcode:
 
-![End Banner](Documentation/readme-end-banner.png)
+    ```bash
+    cd layout-calculator
+    open Calculator Layout iOS13.xcodeproj
+    ```
 
+3. Build and run the project on the iOS Simulator or a physical device.
+
+## Usage
+
+1. Launch the app on your iOS device.
+2. Use the number pad to enter numbers.
+3. Tap on the arithmetic operation buttons (+, -, *, /) to perform calculations.
+4. Use the "=" button to get the result.
+5. Use the "AC" button to clear the current input.
+
+## Project Structure
+
+- `CalculatorApp/`: Main source folder containing the Swift files.
+- `CalculatorApp/Controllers/`: Contains view controllers.
+- `CalculatorApp/Views/`: Contains custom UI views.
+- `CalculatorApp/Models/`: Contains model classes.
+- `CalculatorApp/Assets.xcassets/`: Contains image assets and other resources.
+- `CalculatorApp/Info.plist`: Contains app configuration settings.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch:
+
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+
+3. Make your changes and commit them:
+
+    ```bash
+    git commit -m "Add your commit message"
+    ```
+
+4. Push to the branch:
+
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+5. Open a pull request.
+
+## Acknowledgements
+
+- Inspired by various calculator apps on the App Store.
+- Thanks to the iOS development community for their tutorials and support.
